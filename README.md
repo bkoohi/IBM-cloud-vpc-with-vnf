@@ -32,22 +32,22 @@ https://github.com/bkoohi/vpc-auto-scale-pa-vsi-app
 ## 3- Hub-Spoken VPCs , HA Palo Alto instances in Hub VPC, web HA-VSI app in Spoken VPC:
 The purpose of this pattern to deploy single VPC and HA Palo Alto instances in one region to protect a web-facing VSI application.
 Components of this solution:
-1- Single VPC in single region
-2- Public ALB internet facing for internet facing application
-3- HA Palo Alto virtual instance in VPC
-4- Auto-scale Web application on VSIs in VPC with instance group
-5- Private ALB internal facing for Auto-scale
+1. Single VPC in single region
+2. Public ALB internet facing for internet facing application
+3. HA Palo Alto virtual instance in VPC
+4. Auto-scale Web application on VSIs in VPC with instance group
+5. Private ALB internal facing for Auto-scale
 
 https://github.com/bkoohi/hub-spoken-vpcs-ha-pa-vsi-app
 
 ## 4- Hub-Spoken VPCs , Auto-Scale Palo Alto instances in Hub VPC, web HA-VSI app in Spoken VPC:
 The purpose of this pattern to deploy single VPC and auto-scale Palo Alto instance in one region to protect a web-facing VSI application.
 Components of this solution:
-1- Single VPC in single region
-2- Public ALB internet facing for internet facing application
-3- Auto-scale Palo Alto virtual instance in VPC
-4- Auto-scale Web application on VSIs in VPC with instance group
-5- Private ALB internal facing for Auto-scale
+1. Single VPC in single region
+2. Public ALB internet facing for internet facing application
+3. Auto-scale Palo Alto virtual instance in VPC
+4. Auto-scale Web application on VSIs in VPC with instance group
+5. Private ALB internal facing for Auto-scale
 
 https://github.com/bkoohi/vpc-auto-scale-pa-vsi-app
 
