@@ -17,7 +17,7 @@ Components of this solution:
 5- Private ALB internal facing for Auto-scale
 
 
-## 1- Single VPC , Auto-Scale Palo Alto instance, web HA-VSI app:
+## 2- Single VPC , Auto-Scale Palo Alto instance, web HA-VSI app:
 The purpose of this pattern to deploy single VPC and auto-scale Palo Alto instance in one region to protect a web-facing VSI application.
 Components of this solution:
 1- Single VPC in single region
