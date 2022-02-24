@@ -8,7 +8,7 @@ There are few different patterns and products that can be used for deployment in
 
 
 ## 1- Single VPC , HA Palo Alto instance, web HA-VSI app:
-The purpose of this pattern to deploy single VPC and HA Palo Alto instances in one region to protect a web-facing VSI application.
+The purpose of this pattern to deploy single VPC and HA Palo Alto instances in one region to protect a web-facing VSI cluster application.
 Components of this solution:
 1. Single VPC in single region
 2. Public ALB internet facing for internet facing application
