@@ -29,7 +29,7 @@ Components of this solution:
 
 https://github.com/bkoohi/vpc-auto-scale-pa-vsi-app
 
-## 3- Hub-Spoken VPCs , HA Palo Alto instances in Hub VPC, web HA-VSI app in Spoken VPC:
+## 3- Hub-Spoken VPCs , HA Palo Alto instances in Hub VPC, IKS app in Spoken VPC:
 The purpose of this pattern to deploy single VPC and HA Palo Alto instances in one region to protect a web-facing VSI application.
 Components of this solution:
 1. Single VPC in single region
@@ -40,7 +40,7 @@ Components of this solution:
 
 https://github.com/bkoohi/hub-spoken-vpcs-ha-pa-vsi-app
 
-## 4- Hub-Spoken VPCs , Auto-Scale Palo Alto instances in Hub VPC, web HA-VSI app in Spoken VPC:
+## 4- Hub-Spoken VPCs , Auto-Scale Palo Alto instances in Hub VPC, IKS app in Spoken VPC:
 The purpose of this pattern to deploy single VPC and auto-scale Palo Alto instance in one region to protect a web-facing VSI application.
 Components of this solution:
 1. Single VPC in single region
