@@ -1,4 +1,4 @@
-### Setup IBM Cloud Account
+### 1. Setup IBM Cloud Account
 
 IBM Cloud account is required. An Enterprise account is recommended but Pay as you Go account suffices to deploy secure landing zone cloud resources. 
 
