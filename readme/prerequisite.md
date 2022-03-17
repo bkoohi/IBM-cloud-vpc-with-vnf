@@ -1,4 +1,4 @@
-### 1. Setup IBM Cloud Account
+## 1. Setup IBM Cloud Account
 
 IBM Cloud account is required. An Enterprise account is recommended but Pay as you Go account suffices to deploy secure landing zone cloud resources. 
 
@@ -9,11 +9,11 @@ If you do not already have an account, follow instructions [to create the accoun
 
 1. Log into IBM Cloud [console](https://cloud.ibm.com) using the IBMid you used to setup the account. This IBMid user is the account __owner__ and has all the IAM accesses.
 
-### 2 Setup CLI tools
+## 2 Setup CLI tools
 Following CLI tools should be installed on your local machine for devtest and any validation work.
 Detailed instructions are available [here](https://cloud.ibm.com/docs/cli?topic=cli-getting-started)
 
-## 2.1. Install IBM Cloud CLI
+### 2.1. Install IBM Cloud CLI
 Linux and MacOS
 ```bash
 curl -sL https://raw.githubusercontent.com/IBM-Cloud/ibm-cloud-developer-tools/master/linux-installer/idt-installer | bash
@@ -29,7 +29,7 @@ Windows 10 Pro
 ibmcloud version
 ```
 
-### 2. Install Terraform v0.13.5
+### 2.2. Install Terraform v0.13.5
 MacOS
 ```bash
 sudo mkdir -p /usr/local/terraform/v0135
@@ -56,7 +56,7 @@ Download the CLI binary from https://releases.hashicorp.com/terraform/0.13.5/ter
 terraform --version
 ```
 
-### 3. Install jq
+### 2.3. Install jq
 MacOS
 ```bash
 brew install jq
@@ -72,7 +72,7 @@ jq version
 1. [Create an IBM Cloud API Key](https://cloud.ibm.com/docs/account?topic=account-userapikey#create_user_key). User owning this key should be part of __admins__ group.
 
 
-### Optional IBM Cloud Account setup
+## 3. Optional IBM Cloud Account setup
 
 1. Log into IBM Cloud [console](https://cloud.ibm.com) using the IBMid you used to setup the account. This IBMid user is the account __owner__ and has all the IAM accesses.
 
