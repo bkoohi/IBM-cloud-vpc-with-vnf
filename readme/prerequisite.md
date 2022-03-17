@@ -62,7 +62,10 @@ MacOS
 ```bash
 brew install jq
 ```
-
+Linux
+```bash
+apt install jq
+```
 Linux and Windows  
 Find the jq binary matching your Linux/Windows OS and install with the respective install tool. Download [link here](https://stedolan.github.io/jq/download/).
 
