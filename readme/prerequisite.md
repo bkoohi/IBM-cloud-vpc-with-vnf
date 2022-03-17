@@ -9,11 +9,11 @@ If you do not already have an account, follow instructions [to create the accoun
 
 1. Log into IBM Cloud [console](https://cloud.ibm.com) using the IBMid you used to setup the account. This IBMid user is the account __owner__ and has all the IAM accesses.
 
-### Setup CLI tools
+### 2 Setup CLI tools
 Following CLI tools should be installed on your local machine for devtest and any validation work.
 Detailed instructions are available [here](https://cloud.ibm.com/docs/cli?topic=cli-getting-started)
 
-### 1. Install IBM Cloud CLI
+## 2.1. Install IBM Cloud CLI
 Linux and MacOS
 ```bash
 curl -sL https://raw.githubusercontent.com/IBM-Cloud/ibm-cloud-developer-tools/master/linux-installer/idt-installer | bash
