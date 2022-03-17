@@ -1,3 +1,4 @@
+Follow these steps to setup your jump server or laptop with appropriate software and configurations for running terraforms to build your environment.
 ## 1. Setup IBM Cloud Account
 
 IBM Cloud account is required. An Enterprise account is recommended but Pay as you Go account suffices to deploy secure landing zone cloud resources. 
