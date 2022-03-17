@@ -33,24 +33,24 @@ ibmcloud version
 ### 2.2. Install Terraform v0.13.5
 MacOS
 ```bash
-sudo mkdir -p /usr/local/terraform/v0135
-cd /usr/local/terraform/v0135 && sudo curl https://releases.hashicorp.com/terraform/0.13.5/terraform_0.13.5_darwin_amd64.zip --output tf12.zip
+sudo mkdir -p /usr/local/terraform/v0117
+cd /usr/local/terraform/v0135 && sudo curl https://releases.hashicorp.com/terraform/0.13.5/terraform_1.1.7_darwin_amd64.zip --output tf12.zip
 sudo unzip tf12.zip
-sudo mv terraform /usr/local/bin/terraform0135
-ln -s /usr/local/bin/terraform0135 /usr/local/bin/terraform
+sudo mv terraform /usr/local/bin/terraform0117
+ln -s /usr/local/bin/terraform0117 /usr/local/bin/terraform
 ```
 
 Linux
 ```bash
-sudo mkdir -p /usr/local/terraform/v0135
-cd /usr/local/terraform/v0135 && sudo curl https://releases.hashicorp.com/terraform/0.13.5/terraform_0.13.5_linux_amd64.zip --output tf12.zip
-sudo unzip tf12.zip
-sudo mv terraform /usr/local/bin/terraform0135
-ln -s /usr/local/bin/terraform0135 /usr/local/bin/terraform
+sudo mkdir -p /usr/local/terraform/v117
+cd /usr/local/terraform/v117 && sudo curl https://releases.hashicorp.com/terraform/1.1.7/terraform_1.1.7_linux_amd64.zip --output tf117.zip
+sudo unzip tf117.zip
+sudo mv terraform /usr/local/bin/terraform0117
+ln -s /usr/local/bin/terraform0117 /usr/local/bin/terraform
 ```
 
 Windows
-Download the CLI binary from https://releases.hashicorp.com/terraform/0.13.5/terraform_0.13.5_windows_amd64.zip and install on your Windows machine.
+Download the CLI binary from https://releases.hashicorp.com/terraform/0.13.5/terraform_1.17_windows_amd64.zip and install on your Windows machine.
 
 **Verify Installation**
 ```bash
