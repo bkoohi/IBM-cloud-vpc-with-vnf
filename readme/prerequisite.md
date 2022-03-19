@@ -86,11 +86,11 @@ jq version
 
 4. Enable VRF and Service Endpoints. This requires creating a support case. Follow [instructions](https://cloud.ibm.com/docs/account?topic=account-vrf-service-endpoint#vrf) carefully. (optional)
 
-6.[Setup MFA for all IBM Cloud IAM users](https://cloud.ibm.com/docs/account?topic=account-account-getting-started#account-gs-mfa). (optional)
+6. [Setup MFA for all IBM Cloud IAM users](https://cloud.ibm.com/docs/account?topic=account-account-getting-started#account-gs-mfa). (optional)
 
 7. [Setup Cloud IAM Access Groups](https://cloud.ibm.com/docs/account?topic=account-account-getting-started#account-gs-accessgroups). User access to cloud resources will be controlled using the Access Policies assigned to Access Groups. IBM Cloud Financial Services profile requires that all IAM users do not get assigned any accesses directly to any cloud resources. When assigning Access policies, Click "All Identity Access Enabled Services" from drop down menu.
 
-8.[Create an IBM Cloud Resource group](https://cloud.ibm.com/docs/account?topic=account-rgs) for the installation. (optional)
+8. [Create an IBM Cloud Resource group](https://cloud.ibm.com/docs/account?topic=account-rgs) for the installation. (optional)
     - It can be a single group or (recommended) two groups as follows:
       - Management Resource Group
       - Workload Resource Group
