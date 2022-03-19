@@ -76,24 +76,24 @@ jq version
 1. [Create an IBM Cloud API Key](https://cloud.ibm.com/docs/account?topic=account-userapikey#create_user_key). User owning this key should be part of __admins__ group.
 
 
-## 3. Optional IBM Cloud Account setup
+## 3. Additional IBM Cloud Account setup - optional
 
-1. [Complete the company profile and contacts information](https://cloud.ibm.com/docs/account?topic=account-contact-info) for the account. (best practice)
+1. [Complete the company profile and contacts information](https://cloud.ibm.com/docs/account?topic=account-contact-info) for the account. 
 
-2. [Enable the flag](https://cloud.ibm.com/docs/account?topic=account-enabling-fs-validated) to designate your IBM Cloud account to be Financial Services Validated. (optional)
+2. [Enable the flag](https://cloud.ibm.com/docs/account?topic=account-enabling-fs-validated) to designate your IBM Cloud account to be Financial Services Validated. 
 
-3. Enable VRF and Service Endpoints. This requires creating a support case. Follow [instructions](https://cloud.ibm.com/docs/account?topic=account-vrf-service-endpoint#vrf) carefully. (optional)
+3. Enable VRF and Service Endpoints. This requires creating a support case. Follow [instructions](https://cloud.ibm.com/docs/account?topic=account-vrf-service-endpoint#vrf) carefully. 
 
-4. [Setup MFA for all IBM Cloud IAM users](https://cloud.ibm.com/docs/account?topic=account-account-getting-started#account-gs-mfa). (optional)
+4. [Setup MFA for all IBM Cloud IAM users](https://cloud.ibm.com/docs/account?topic=account-account-getting-started#account-gs-mfa).
 
 5. [Setup Cloud IAM Access Groups](https://cloud.ibm.com/docs/account?topic=account-account-getting-started#account-gs-accessgroups). User access to cloud resources will be controlled using the Access Policies assigned to Access Groups. IBM Cloud Financial Services profile requires that all IAM users do not get assigned any accesses directly to any cloud resources. When assigning Access policies, Click "All Identity Access Enabled Services" from drop down menu.
 
-6. [Create an IBM Cloud Resource group](https://cloud.ibm.com/docs/account?topic=account-rgs) for the installation. (optional)
+6. [Create an IBM Cloud Resource group](https://cloud.ibm.com/docs/account?topic=account-rgs) for the installation.
     - It can be a single group or (recommended) two groups as follows:
       - Management Resource Group
       - Workload Resource Group
       
-7. [Add Resource Group access](https://cloud.ibm.com/docs/account?topic=account-groups) (optional)
+7. [Add Resource Group access](https://cloud.ibm.com/docs/account?topic=account-groups) 
    - It is recommended to have at least two access groups - one giving manager permissions to resources and one giving only viewer permissions.
 
-8. Enable Activity Tracking with COS for IBM Cloud Services audit events. [See More Instructions to setup audit logging for IBM Cloud events here](https://test.cloud.ibm.com/docs/allowlist/framework-financial-services?topic=framework-financial-services-vpc-architecture-logging-audit). (optional)
+8. Enable Activity Tracking with COS for IBM Cloud Services audit events. [See More Instructions to setup audit logging for IBM Cloud events here](https://test.cloud.ibm.com/docs/allowlist/framework-financial-services?topic=framework-financial-services-vpc-architecture-logging-audit). 
