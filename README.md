@@ -1,10 +1,14 @@
 # Securing workload in IBM Cloud VPC. 
 
-Container applications in any Cloud environment needs enterprise level security and protection. There are number of security tools and services available in IBM Cloud to deliver an secure application environment. Services such as disk encryption , security group , access control and virtual security appliances. 
-
-Majority of customers have security firewall standards such as Palo Alto, Checkpoints, FortiGate and other firewall products. It's beneficial for customers to use their current security firewall standards for workloads running in IBM Cloud. 
-
-Deploying virtual security services in Cloud and virtual network is different from physical security products in on-premises. The goal of this article is to describe recommended patterns for deployment of few VNF firewalls in IBM Cloud.
+Applications in Cloud environment needs an enterprise level security and protection. There are number of security standards, deployment patterns, cloud security tools and services available in IBM Cloud to deliver a secure application environment. IBM Cloud Services provides the following security services and capbilities to build a secure platform for applications:
+1. Virtual security appliances
+2. Hub-spoken deployment model
+3. VPC Security group & access control 
+4. Security & compliance center
+5. Monitoring and Logging
+6. Event notification
+7. Encryption
+8. IAM userid and access group management 
 
 There are few different patterns and products that can be used for deployment in IBMM Cloud such as:
 
